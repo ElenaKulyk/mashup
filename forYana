@@ -1,0 +1,452 @@
+    1  exit
+    2  cp .screenrc-getuptime /home/lena/.screenrc-getuptime
+    3  cp .screenrc /home/lena/.screenrc
+    4  cp .bashrc /home/lena/.bashrc
+    5  ls /home/lena/
+    6  ls -x /home/lena/
+    7  vi /home/lena/.bashrc
+    8  exit
+    9  whoami
+   10  cd /home/lena/
+   11  vi .screenrc-getuptime
+   12  vi .screenrc
+   13  vi .bashrc
+   14  screen test
+   15  exit
+   16  su lena
+   17  exit
+   18  pwd
+   19  screen
+   20  screet
+   21  screen
+   22  exit
+   23  vi .bashrc
+   24  screen
+   25  exit
+   26  screen
+   27  su lena
+   28  exit
+   29  PS1=\\u@\\h\\w\$
+   30  screen
+   31  echo PS1
+   32  ps -a
+   33  ps -help
+   34  ps --help
+   35  man ps 
+   36  ps -aux
+   37  man ps
+   38  nise -n 20 dd if=/dev/zero of =/dev/null
+   39  nice -n 20 dd if=/dev/zero of =/dev/null
+   40  nice -n 20 dd if=/dev/zero of=/dev/null
+   41  bg
+   42  bg %1
+   43  job
+   44  jobs
+   45  ps -u
+   46  kill -s 15 1530
+   47  kill -s 15 1531
+   48  nice -n 20 dd if=/dev/zero of=/dev/null
+   49  bg
+   50  nice -n 20 dd if=/dev/zero of=/dev/null
+   51  bg
+   52  ps -u
+   53  kill -USER1 1535
+   54  kill -USR1 1535
+   55  kill -USR1 1536
+   56  kill -l 15 1535
+   57  kill 15 1535
+   58  kill 15 1536
+   59  ps aux
+   60  ps -aux | grep 'root'
+   61  ps -aux | grep '^\['
+   62  ps -aux | grep '\b\['
+   63  ps -aux | grep '\B\['
+   64  ps -aux | grep ^'\B\['
+   65  ps -aux | grep [^'\B\[']
+   66  ps -aux | grep '\B\['
+   67  ps -aux | grep ':[0-9]{2}\s[a-z]'
+   68  ps -aux | grep '\:[0-9]{2}\s[a-z]'
+   69  ps -aux | grep '[0-9]{2}\s[a-z]'
+   70  ps -aux | grep '[0-9]{2}\s[a-z]*'
+   71  ps -aux | grep -Ev '\B\['
+   72  ps -aux --sort -time | grep -Ev '\B\['
+   73  find -type l
+   74  find -type l /
+   75  find / -type l 
+   76  su lena
+   77  vim .bashrc
+   78  vi .bashrc
+   79  reboot
+   80  PS1=\\u@\\h:\\w\\$
+   81  vi  test1
+   82  bash test1; echo $a
+   83  vi test1
+   84  bash $a="tri"; bash test1
+   85  a="tri"; bash test1
+   86  export(a="tri");bash test1
+   87  export a="tri";bash test1
+   88  ping -c 8888
+   89  ping -c 8.8.8.8
+   90  ping -c 2 8.8.8.8
+   91  ping -c 2 8.8.8.8||echo OK
+   92  ping -c 2 8.8.8.8||echo $?
+   93  ping -c 2 3.3.3.3
+   94  echo $?
+   95  yum instal tree
+   96  yum install tree
+   97  vi webreader.pl
+   98  vi .bashrc
+   99  export PS1=\\u@\\h:\\w\\s
+  100  export PS1=\\u@\\h:\\w\\$
+  101  ls -l /var/log/
+  102  ls  /var/log/
+  103  touch /var/log/service/servise.log 
+  104  mkdir /var/log/service 
+  105  touch /var/log/service/servise.log 
+  106  logrotate -e
+  107  logrotate -d
+  108  logrotate --help
+  109  logrotate -d
+  110  logrotate -f
+  111  logrotate 
+  112  syslog
+  113  ls /var/log
+  114  aptitude install rsyslog
+  115  yum install rsyslog
+  116  vi /etc/rsyslog.conf 
+  117  export PS1="\u@\h:\w\&"
+  118  export PS1="\u@\h:\w\$"
+  119  vi .bashrc
+  120  PS1="\u@\h:\w\$"
+  121  screen
+  122  ping 8.8.8.8
+  123  vi .bashrc
+  124  rebut
+  125  reboot
+  126  vi .bashrc
+  127  reboot
+  128  PS1="\u@\h:\w\$"
+  129  vi .bashrc
+  130  export PS1="\u@\h:\w\$"
+  131  reboot
+  132  10
+  133  10
+  134  quit
+  135  exit
+  136  vi .bashrc
+  137  reboot
+  138  exit
+  139  stat
+  140  yum inslall stat
+  141  yum insloll stat
+  142  yum install stat
+  143  stat
+  144  mount
+  145  stat /dev/sda1
+  146  ls /opt/
+  147  vi /etc/security/
+  148  vi /etc/securetty 
+  149  vi /etc/fstab 
+  150  ls /etc/group
+  151  vi /etc/group
+  152  ls -help
+  153  ls --help
+  154  help ls
+  155  help -ls
+  156  help ls
+  157  help 
+  158  history
+  159  ls
+  160  cat -b sc1
+  161  cat -b ps.sh 
+  162  cat -n ps.sh 
+  163  df
+  164  ls -l
+  165  ls -li
+  166  ln ps.sh 
+  167  ln linc  ps.sh 
+  168  ln   ps.sh link
+  169  ls -li
+  170  rm link
+  171  ls -li
+  172  ln -s slink ps.sh 
+  173  ln -s  ps.sh softl
+  174  ls -li
+  175  chmod 1777 ps.sh 
+  176  ls -li
+  177  man tar
+  178  users
+  179  users --help
+  180  users -a
+  181  users -A
+  182  man users
+  183  cat /etc/passwd |grep /bin/bash |grep [5-9][0-9][0-9] |cut -d: -f1
+  184  cat /etc/passwd |grep /bin/
+  185  screen
+  186  exit
+  187  screen
+  188  wget http://cdn.seasonvar.ru/oblojka/small/*.jpg
+  189  wget http://cdn.seasonvar.ru/oblojka/small/11087.jpg
+  190  wget http://cdn.seasonvar.ru/oblojka/small/{0..9}.jpg
+  191  wget http://cdn.seasonvar.ru/oblojka/small/.*.jpg
+  192  wget http://cdn.seasonvar.ru/oblojka/small/{\.*}.jpg
+  193  wget http://cdn.seasonvar.ru/oblojka/small/{*}.jpg
+  194  wget http://cdn.seasonvar.ru/oblojka/small/*.jpg
+  195  wget -A jpg  http://cdn.seasonvar.ru/oblojka/small/
+  196  wget -A jpg  http://seasonvar.ru
+  197  wget -A jpg  http://seasonvar.ru/
+  198  ls
+  199  rm *.jpg
+  200  ls
+  201  rm index*
+  202  ls
+  203  cd img_tmp/
+  204  ls
+  205  rm index.html 
+  206  ls
+  207  wget --accept jpg  http://seasonvar.ru
+  208  wget --reject html --accept jpg  http://seasonvar.ru
+  209  man wget
+  210  man wget|grep "accept
+  211  "
+  212  man wget|grep "accept"
+  213  wget --help
+  214  man wget
+  215  curl http://seasonvar.ru| grep -o 'http://.*\.jpg'|xargs wget
+  216  curl http://seasonvar.ru| grep -o 'http://.*\.(jpg|png|gif)'|xargs wget
+  217  curl http://seasonvar.ru| grep -o 'http://.*\.(jpg)|(png)|(gif)'|xargs wget
+  218  curl http://seasonvar.ru| grep -o 'http://.*\.((jpg)|(png)|(gif))'|xargs wget
+  219  curl http://seasonvar.ru| grep -o 'http://.*\.(jpg|png|gif)'|xargs wget
+  220  curl http://seasonvar.ru| grep -o 'http://.*\.([jpg]{1}|png{1}|gif{1})'|xargs wget
+  221  curl http://seasonvar.ru| grep -o 'http://.*\.([jpg]{1}|[png]{1}|[gif]{1})'|xargs wget
+  222  curl http://seasonvar.ru| grep -o '(http://.*\.jpg)'|xargs wget
+  223  curl http://seasonvar.ru| grep -oE 'http://.*\.(jpg|png|gif)'|xargs wget
+  224  ls
+  225  rm
+  226  rm *
+  227  ls
+  228  curl http://seasonvar.ru| grep -oE 'http://.*\.((jpg)|(png)|(gif))'|xargs wget
+  229  ls
+  230  curl http://seasonvar.ru| grep -m 1 -oE 'http://.*\.(jpg|png|gif)'|xargs wget
+  231  curl http://seasonvar.ru| grep -oE 'http://.*\.(jpg|png|gif)'|sort |uniq |xargs wget
+  232  rm *
+  233  curl http://seasonvar.ru| grep -oE 'http://.*\.(jpg|png|gif)'|sort |uniq |xargs wget
+  234  ls
+  235  curl http://seasonvar.ru| grep -oE 'http://.*\.(jpg|png|gif)'|curl http://seasonvar.ru| grep -oE 'http://.*\.(jpg|png|gif)'|xargs wgetxargs wget
+  236  ifconfig 
+  237  ifconfig enpp0s3:1 192.168.1.11
+  238  ifconfig enp0s3:1 192.168.1.11
+  239  ifconfig enp0s3:1 up
+  240  ifconfig 
+  241  ifconfig 192.168.1.11 
+  242  ifconfig enp0s3:1
+  243  ifconfig enp0s3:2
+  244  ifconfig
+  245  ifconfig |grep "enp0s3:1"
+  246  ifconfig |grep "enp0s3:2"
+  247  ifconfig |grep "192.168.1.11"
+  248  vi assigment9_26
+  249  bash assigment9_26 
+  250  vi assigment9_26
+  251  bash assigment9_26 
+  252  vi assigment9_26
+  253  ifconfig 
+  254  bash assigment9_26 enp0s3:1
+  255  vi assigment9_26
+  256  bash assigment9_26 enp0s3:1
+  257  vi assigment9_26
+  258  bash assigment9_26 enp0s3:1
+  259  ifconfig 
+  260  ifconfig  192.168.1.11 doun
+  261  ifconfig  192.168.1.11 down
+  262  cd ~/
+  263  ls /etc/sysconfig/network-scripts/
+  264  vi /etc/sysconfig/network-scripts/ifdown
+  265  ls /etc/sysconfig/network-scripts/
+  266  vi /etc/sysconfig/network-scripts/ifup-aliases 
+  267  ls /etc/sysconfig/network-scripts/
+  268  ifconfig enp0s3:5 192.168.1.12
+  269  vi /proc/net/aliases:
+  270  rm /proc/net/aliases
+  271  rm /proc/net/aliases:
+  272  vi /proc/net/aliases
+  273  vi /etc/rc.d/rc.local 
+  274  vi /var/lock/subsys/local
+  275  vi /etc/network/interfaces
+  276  ifup enp0s3:1
+  277  ifup enp0s3
+  278  mkdir sftp_copy
+  279  ls
+  280  ifconfig
+  281  rsync 192.168.1.9:/var/run /tmp/
+  282  rsync 192.168.1.9:/var/run/*.pid /tmp/
+  283  ls /tmp
+  284  ls /var/run/
+  285  iconv
+  286  ifconfig 
+  287  sftp 192.168.1.9
+  288  ls
+  289  scp -r root@192.168.1.9:/etc ~/sftp_copy/
+  290  curl
+  291  mkdir img_tmp
+  292  wget uk.wikipedia.org
+  293  cd img_tmp/
+  294  yum install wget
+  295  wget https://uk.wikipedia.org/*.jpg
+  296  wget https://en.wikipedia.org/wiki/Main_Page/*.jpg
+  297  wget https://en.wikipedia.org/wiki/*.jpg
+  298  wget -l 3 https://en.wikipedia.org/wiki/*.jpg
+  299  wget http://seasonvar.ru/*.jpg
+  300  wget http://seasonvar.ru/*
+  301  wget http://seasonvar.ru/
+  302  ls
+  303  wget -r http://seasonvar.ru/*.jpg
+  304  wget -l 4 http://seasonvar.ru/*.jpg
+  305  ls
+  306  wget http://seasonvar.ru/oblojka/small/*.jpg
+  307  wget http://cdn.seasonvar.ru/oblojka/small/*.jpg
+  308  reboot
+  309  traceroute 192.168.1.6
+  310  traceroute goo.gl
+  311  traceroute -u goo.gl
+  312  traceroute --help
+  313  traceroute -U goo.gl
+  314  traceroute -T goo.gl
+  315  traceroute --help
+  316  traceroute -T goo.gl
+  317  traceroute -I goo.gl
+  318  traceroute --help
+  319  man traceroute | grep hop
+  320  traceroute -m 5 goo.gl
+  321  traceroute 192.168.254.254
+  322  man traceroute | grep port
+  323  traceroute -p 22 goo.gl
+  324  traceroute -p 80 goo.gl
+  325  traceroute -T -p 80 goo.gl
+  326  traceroute -I -p 80 goo.gl
+  327  traceroute -U -p 80 goo.gl
+  328  traceroute  -p 80 goo.gl
+  329  man traceroute
+  330  man mtr
+  331  mtr 192.168.1.6
+  332  man mtr
+  333  mtr -c 100 192.168.1.6
+  334  mtr -c 100 goo.gl
+  335  mtr -c 100 -s 65K goo.gl
+  336  man mtr
+  337  mtr -c 100 -s 65000 goo.gl
+  338  mtr -c 100 --report goo.gl
+  339  mtr goo.gl
+  340  mtr -c 100 -s 65 goo.gl
+  341  man telnet 
+  342  ping 8.8.8.8
+  343  man telnet 
+  344  telnet www.portaone.com
+  345  telnet portaone.com 
+  346  telnet https://dl.portaone.com
+  347  telnet dl.portaone.com
+  348  telnet -T  www.portaone.com
+  349  man telnet 
+  350  telnet 192.168.1.8
+  351  telnet 192.168.1.6
+  352  telnet www.ru 80
+  353  telnet www.portaone.com 80
+  354  exit
+  355  systemctl status httpd
+  356   rm -r /var/www/example.com
+  357  ls /var/www/
+  358   rm -r /var/www/example2.com
+  359   rm -r /etc/httpd/sites-available
+  360   rm -r /etc/httpd/sites-enabled
+  361  ls /etc/httpd/conf/
+  362  rm  /etc/httpd/conf/httpd.conf 
+  363  sudo yum -y install httpd
+  364  systemctl status httpd
+  365  systemctl restart httpd
+  366  yum remove httpd
+  367  sudo yum -y install httpd
+  368  systemctl restart httpd
+  369  systemctl status httpd
+  370  cd /etc/httpd/conf.d/
+  371  ls
+  372  vi  test.conf
+  373  mv test.conf virtual.conf
+  374  ls
+  375  cd /var/www/
+  376  mkdir virual
+  377  rm virual/
+  378  rm -r virual/
+  379  mkdir virtual
+  380  cd virtual/
+  381  vi index.php
+  382  vi /etc/httpd/conf/httpd.conf 
+  383  systemctl restart httpd
+  384  apachectl restart
+  385  journalctl -xn
+  386  apachectl status
+  387  vi /etc/httpd/conf.d/virtual.conf 
+  388  apachectl restart
+  389  vi /etc/httpd/conf.d/virtual.conf 
+  390  lynx  www.myvirtual123.com
+  391  yum install  lynx
+  392  lynx  www.myvirtual123.com
+  393  vi /etc/httpd/conf.d/virtual.conf 
+  394  vi index.php
+  395  lynx  www.myvirtual123.com
+  396  iptables -F
+  397  lynx  www.myvirtual123.com
+  398  lynx  www.myvirtual123
+  399  vi /etc/httpd/conf.d/virtual.conf 
+  400  vi /etc/hosts
+  401  lynx  www.myvirtual123
+  402  vi index.php 
+  403  lynx  www.myvirtual123
+  404  vi index.php 
+  405  lynx  www.myvirtual123
+  406  vi index.php 
+  407  tcpdump -nqt -s 0 -A -i eth0 port 5060
+  408  tcpdump -nqt -s 0 -A -i enp0s3 port 5060
+  409  tcpdump -i enp0s3
+  410  tcpdump -nqt -s 0 -A -i enp0s3 port 5060
+  411  tcpdump -i enp0s3> dump.pcapng
+  412  vi dump.pcapng 
+  413  tcpdump -i enp0s3> dump.pcapng
+  414  scp dump.pcapng elena@192.168.1.3:D:/
+  415  ftp http://webfiles.ru/
+  416* http http://webfiles.ru/
+  417  ftp webfiles.ru/
+  418  ls
+  419  mv dump.pcapng ~/dump.pcapng 
+  420  cd ~
+  421  ls
+  422  /var/www/virtual#scp elena@192.168.1.3:D:\dump.pcapng  root@192.168.1.15:~/dump.pcapng
+  423  cd ~
+  424  /var/www/virtual#scp elena@192.168.1.3:D:\dump.pcapng  root@192.168.1.15:~/dump.pcapng
+  425  scp elena@192.168.1.3:D:\dump.pcapng  root@192.168.1.15:~/dump.pcapng
+  426  scp elEna@192.168.1.3:D:\dump.pcapng  root@192.168.1.15:~/dump.pcapng
+  427  scp elElena@192.168.1.3:D:\dump.pcapng  root@192.168.1.15:~/dump.pcapng
+  428  mkdir git
+  429  cd git
+  430  git init 
+  431  git remote add origin https://github.com/ElenaKulyk/mashup.git
+  432  cp ~/dump.pcapng /git/dump.pcapng
+  433  cp ~/dump.pcapng /git/
+  434  cp ~/dump.pcapng ./git/
+  435  cp ~/dump.pcapng ../git/
+  436  ls
+  437  add .
+  438  git add .
+  439  git comit 
+  440  gc 
+  441  git push origin master
+  442  cat dump.pcapng 
+  443  tcpdump -i ent0s3 -s 65535 -w ../git/dump2.pcapng
+  444  tcpdump -i enp0s3 -s 65535 -w ../git/dump2.pcapng
+  445  sl
+  446  ls
+  447  vi dump2.pcapng 
+  448  git add .
+  449  gc -m "add for wireshark"
+  450  git push origin master
+  451* 
+  452  history > forYana
